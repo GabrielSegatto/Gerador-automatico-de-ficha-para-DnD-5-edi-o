@@ -1,0 +1,43 @@
+.LRaca{
+    width: 100%;
+    height: 40vh;
+    background-color: #f8f8f8;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.escolher{
+    width: 25%;
+    height: 35%;
+    justify-content: space-around;
+}
+
+.informacoes{
+    width: 65%;
+    height: 70%;
+    justify-content: space-around;
+}
+
+.informacoes .status{
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.informacoes .status li{
+    width: 16.66%;
+    height: 99%;
+    border-top: 2px solid lightgray;
+    border-left: 1px solid lightgray;
+    border-right: 1px solid lightgray;
+    border-bottom: 2px solid lightgray;
+
+}
+
+#racaExtra{
+    width: 100%;
+    height: 100%;
+    border-left: 2px solid lightgray;
+    border-right: 2px solid lightgray;
+    border-bottom: 2px solid lightgray;
+}

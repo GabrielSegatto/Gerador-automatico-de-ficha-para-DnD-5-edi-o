@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Ficha Automatica 5e</title>
+    <script defer src="./JS/racas//subraca.js"></script>
+    <script defer src="./JS/racas/status.js"></script>
+
+    <link rel="stylesheet" href="./CSS/global.css">
+    <link rel="stylesheet" href="./CSS/raca.css">
+</head>
+
+<body>
+    <section>
+        <header>
+            <h1>Gerador automatico de ficha para DnD 5ª edição</h1>
+        </header>
+        <section class="LRaca">
+            <section class="escolher">
+                <h2>Raça:</h2>
+                <select id="raca" onchange="MostarStatus(), MostarsubRaca()"></select>
+                <h2>Sub-raça:</h2>
+                <select id="subRaca" onchange="StatusSubRaca()"></select>
+                
+            </section>
+            <section class="informacoes">
+                <ul class="status">
+                    <li>
+                        <p>Força</p>
+                        <p id="RSf">0</p>
+                    </li>
+                    <li>
+                        <p>Destreza</p>
+                        <p id="RSd">0</p>
+                    </li>
+                    <li>
+                        <p>Constituição</p>
+                        <p id="RScon">0</p>
+                    </li>
+                    <li>
+                        <p>Inteligencia</p>
+                        <p id="RSi">0</p>
+                    </li>
+                    <li>
+                        <p>Sabedoria</p>
+                        <p id="RSs">0</p>
+                    </li>
+                    <li>
+                        <p>Carisma</p>
+                        <p id="RScha">0</p>
+                    </li>
+                </ul>
+                <p id="racaExtra">-</p>
+            </section>
+        </section>
+    </section>
+</body>
+<script class="script" src="./JS/racas/raca.js"></script>
+
+</html>
